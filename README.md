@@ -11,4 +11,4 @@ Using Local Area Network (LAN) to simultaneously write, read and save records in
  > 
  5. Admin Control - to restrict certain users from deleting and editing bills and records 
  > 
- 6. Enable Claims can be done on the web (With Webscrapping functionalities).
+ 6. All claims can be enabled and done on the web (With Webscrapping functionalities).
