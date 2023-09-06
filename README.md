@@ -1,7 +1,5 @@
 
----
-
-# NHIS Claims Management System with Access Database
+# NHIS Claims Management System with Excel and Access Database
 
 ## Table of Contents
 1. [About](#about)
@@ -10,9 +8,11 @@
 4. [Getting Started](#getting-started)
    - [Prerequisites](#prerequisites)
    - [Installation](#installation)
-5. [Usage](#usage)
-6. [Contributing](#contributing)
-7. [License](#license)
+   - [Database Connection](#database-connection)
+   - [User Credentials](#user-credentials)
+   - [Making Adjustments](#making-adjustments)
+5. [Contributing](#contributing)
+6. [License](#license)
 
 ## About
 The NHIS Claims Management System is a comprehensive solution designed to streamline claims processing and management for healthcare providers, specifically tailored for Almadina Clinic. This project was initiated to address the challenges faced by Almadina Clinic in tracking claims, ensuring data accuracy, and meeting submission deadlines. It serves as an efficient tool for NHIS officers to manage and process claims seamlessly.
@@ -42,10 +42,23 @@ The system features a user-friendly interface with multiple tabs, including Dash
    git clone https://github.com/IsraelVow/NHIS-Claims-Managements-System-With-Access-Database.git
    ```
 
-## Usage
-1. Open the Excel workbook to access the NHIS Claims Management System.
-2. Log in with your credentials and navigate through the different tabs to manage claims, tariffs, documents, and reports.
-3. Follow the on-screen instructions and user documentation for a seamless experience.
+### Database Connection
+To ensure the project works correctly, you need to adjust the database connection string. Here's how:
+
+1. Open the workbook in the VBE editor.
+2. Navigate to the "ThisWorkbook" object on the left in the Object Explorer.
+3. Locate the `Workbook_Open()` event.
+4. Uncomment all the code in this event to allow the system to request user credentials when the workbook is opened.
+
+### User Credentials
+- **Admin Login:**
+  - Username: `Admin`
+  - Password: `admin1234` (case sensitive)
+
+### Making Adjustments
+Contributors may need to adjust various aspects of the project to suit their environment or requirements. To do so:
+
+1. Modify the database connection string in the code to match your system's directory path.
 
 ## Contributing
 Contributions to this project are welcome! If you'd like to contribute, please follow these steps:
@@ -59,5 +72,6 @@ Please adhere to the project's coding guidelines and maintain a clean commit his
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
+```
 
----
+The adjustments mainly focus on making sections more visually distinct and adding section titles for clarity. This should provide a comprehensive and well-structured README.md for your project.
