@@ -62,17 +62,14 @@ To create a new account, follow these steps:
 3. Once the admin password is accepted, it will open a registration form for creating a new account.
 
 ![Create Account Page](https://i.imgur.com/tX2dCvB.png)
-[Create Account Page](https://imgur.com/vJuwITE)
-<blockquote class="imgur-embed-pub" lang="en" data-id="7fyBQWN"><a href="https://imgur.com/7fyBQWN">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+![Create Account Page](https://imgur.com/vJuwITE.png)
 
 
 For the initial login, you can use the following admin credentials:
 - **Username:** `Admin`
 - **Password:** `admin1234` (case sensitive)
 
-![Login Page](https://imgur.com/7fyBQWN)
-[Login Page](https://imgur.com/7fyBQWN)
-<blockquote class="imgur-embed-pub" lang="en" data-id="7fyBQWN"><a href="https://imgur.com/7fyBQWN">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+![Login Page](https://imgur.com/7fyBQWN.png)
 
 
 ### Making Adjustments
