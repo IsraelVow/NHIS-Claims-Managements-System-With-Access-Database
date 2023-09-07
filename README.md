@@ -70,6 +70,25 @@ For the initial login, you can use the following admin credentials:
 
 ![Login Page](https://imgur.com/7fyBQWN.png)
 
+### Adding a New HMO with Custom Claims Form and Tariff
+
+If you need to add a new HMO to the system, complete with a custom claims form and tariff, follow these steps:
+
+1. **Provide the Custom Claims Form**: Contact the HMO and request their custom claims form. Ensure that they provide the necessary details for the form's layout, including fields, labels, and any special requirements. Typically, this form will be in Excel format.
+
+2. **Design the Custom Claims Form**: Once you have the HMO's claims form, our development team will design it to seamlessly integrate with the NHIS Claims Management System. We'll use native VBA controls (toolbox) to create a user-friendly interface. This process includes coding each button, combobox, textbox, and other elements to enable NHIS officers to process claims efficiently.
+
+3. **Provide Tariff Information**: In addition to the custom claims form, the HMO must provide their tariff rates. Tariffs are crucial for calculating claim amounts based on the services provided. Ensure that you have a clear understanding of how the tariff should be applied to different services.
+
+4. **Integration with the System**: Our team will integrate the custom claims form and tariff information into the NHIS Claims Management System. This integration ensures that NHIS officers can easily select the new HMO, access the custom claims form, and utilize the specified tariff rates for accurate claim processing.
+
+By following these steps, you can seamlessly onboard new HMOs into the system, allowing NHIS officers to process claims efficiently and accurately.
+
+If an HMO doesn't have a custom claims form or tariff, they will adopt the provider's (Almadina Clinic) standard claims form and tariff. This flexibility ensures that claims can still be processed without delays.
+
+For more detailed instructions and support, please refer to the [User Manual](documentation/User_Manual.pdf) or [contact our support team](#contact-support).
+
+**Note**: The process may vary slightly based on the specific requirements of the HMO and the compatibility of their claims form with the system. It's essential to maintain clear communication with the HMO throughout the onboarding process to ensure a smooth integration.
 
 ### Making Adjustments
 Contributors may need to adjust various aspects of the project to suit their environment or requirements. To do so:

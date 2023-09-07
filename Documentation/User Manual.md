@@ -52,6 +52,8 @@
    - Contact Information
    - Support Channels
 
+12. Adding a New HMO with Custom Claims Form and Tariff
+
 **1. Introduction**
 
 **About NHIS Claims Management System**
@@ -422,15 +424,31 @@ This section provides answers to some common questions about the NHIS Claims Man
 2. Enter the admin password (default: admin1234) when prompted.
 3. A registration form will appear, allowing you to create a new user account.
 
-**Q4. Can I change my user credentials (email, phone number, password) within the system?**
+**Q4: How do I add a new HMO to the system with a custom claims form and tariff?**
+
+A1: To add a new HMO with a custom claims form and tariff, follow these steps:
+
+1. Provide the custom claims form: If the HMO has their own claims form, you'll need to request this form. Our system can accommodate custom forms designed with native VBA controls (toolbox).
+
+2. Design the custom claims form: Once you have the HMO's claims form, our team will design it to seamlessly integrate with the NHIS Claims Management System. We'll code each button, combobox, and other elements to ensure smooth claim processing.
+
+3. Provide the tariff: The HMO will also need to provide their tariff rates. Tariffs are used to calculate claim amounts based on the services provided. This information is essential for accurate claim processing.
+
+4. Integration: We'll integrate the custom claims form and tariff into the system, ensuring that NHIS officers can easily process claims for enrollees under the new HMO.
+
+**Q5: What happens if an HMO doesn't have a custom claims form or tariff?**
+
+A2: If an HMO doesn't have a custom claims form or tariff, they will adopt the provider's (Almadina Clinic) custom claims form and use the provider's tariff. This means that claims for enrollees under such HMOs will be processed using the standard form and tariff provided by Almadina Clinic. The system is flexible enough to accommodate both custom and standard forms, ensuring claims can still be processed seamlessly.
+
+**Q6. Can I change my user credentials (email, phone number, password) within the system?**
 
 **A:** Yes, users have the option to change their user credentials directly within the system. This feature provides greater autonomy and data security.
 
-**Q5. What happens if I forget my password or encounter login issues?**
+**Q7. What happens if I forget my password or encounter login issues?**
 
 **A:** If you forget your password or experience login issues, please contact your system administrator for assistance. They can reset your password and help you regain access to the system.
 
-**Q6. How can I contribute to the NHIS Claims Management System project?**
+**Q8. How can I contribute to the NHIS Claims Management System project?**
 
 **A:** Contributions to this open-source project are welcome! Follow these steps to contribute:
 1. Fork the project on GitHub.
@@ -441,11 +459,11 @@ This section provides answers to some common questions about the NHIS Claims Man
 
 Please adhere to the project's coding guidelines and maintain a clean commit history.
 
-**Q7. Can I use the NHIS Claims Management System for my healthcare facility or organization?**
+**Q9. Can I use the NHIS Claims Management System for my healthcare facility or organization?**
 
 **A:** Yes, you are welcome to use and customize the NHIS Claims Management System for your healthcare facility or organization. The system is designed to be adaptable to different environments and requirements.
 
-**Q8. Is technical support available for the NHIS Claims Management System?**
+**Q10. Is technical support available for the NHIS Claims Management System?**
 
 **A:** Yes, technical support is available for users of the NHIS Claims Management System. If you encounter any technical issues or have questions about the system, please reach out to your system administrator or the project's contributors for assistance.
 
@@ -463,3 +481,61 @@ Our support team is available during business hours to assist you. When contacti
 
 We value your feedback and aim to provide timely assistance to ensure your NHIS Claims Management System experience is as seamless as possible. Don't hesitate to get in touch with us whenever you need support.
 
+
+**12. Adding a New HMO with Custom Claims Form and Tariff**
+
+## Adding a New HMO with Custom Claims Form and Tariff
+
+In the NHIS Claims Management System, you have the flexibility to add a new HMO (Health Maintenance Organization) along with their custom claims form and tariff. This process allows NHIS officers to seamlessly process claims for enrollees under the newly added HMO. Here's a step-by-step guide:
+
+### Step 1: Obtain the Custom Claims Form
+
+1. Contact the new HMO to request their custom claims form. Ensure they provide you with all the necessary details about the form's layout. This includes information about fields, labels, and any specific requirements they might have.
+
+2. The HMO typically provides this form in Excel format. Make sure you receive the form in a compatible digital format.
+
+### Step 2: Design the Custom Claims Form
+
+3. Once you have the HMO's custom claims form, our development team will design it to integrate seamlessly with the NHIS Claims Management System.
+
+4. We will use native VBA controls (toolbox) to create a user-friendly interface within Excel. Each button, combobox, textbox, and other elements will be coded to enable NHIS officers to process claims efficiently.
+
+5. This design process ensures that the custom claims form aligns with the system's functionality, allowing for smooth data entry and processing.
+
+### Step 3: Provide Tariff Information
+
+6. In addition to the custom claims form, the HMO must provide their tariff rates. Tariffs are essential for accurately calculating claim amounts based on the services provided.
+
+7. Ensure that you have a clear understanding of how the tariff should be applied to different services. Tariffs should include pricing details for various medical procedures, consultations, medications, and other healthcare services.
+
+### Step 4: Integration with the System
+
+8. Our development team will integrate the custom claims form and tariff information into the NHIS Claims Management System.
+
+9. This integration process ensures that NHIS officers can easily select the new HMO from the system's interface, access the custom claims form, and utilize the specified tariff rates for precise claim processing.
+
+### Step 5: Testing and Validation
+
+10. Before deploying the new HMO to the live system, thorough testing and validation are essential. Verify that the custom claims form accurately captures data, and that tariff calculations align with the HMO's rates.
+
+11. Conduct test claims submissions to ensure that the integration works seamlessly and that data flows correctly between the custom form and the system's database.
+
+### Step 6: Deployment
+
+12. Once testing is successful, the new HMO, along with their custom claims form and tariff, can be deployed to the live NHIS Claims Management System.
+
+### Step 7: User Training
+
+13. Ensure that NHIS officers receive training on how to use the new custom claims form and understand the tariff structure for the specific HMO.
+
+### Step 8: Ongoing Support
+
+14. Maintain open communication with the new HMO to address any questions or issues that may arise during the initial rollout and ongoing usage.
+
+15. Monitor the performance of the custom form and tariff integration to ensure efficient claim processing.
+
+By following these steps, you can seamlessly onboard new HMOs into the NHIS Claims Management System, providing a user-friendly experience for NHIS officers and accurate claim processing for enrollees.
+
+For additional guidance and support, please refer to the [User Manual](documentation/User_Manual.pdf) or [contact our support team](#contact-support).
+
+**Note**: The onboarding process may vary depending on the specific requirements of the HMO and the compatibility of their claims form with the system. Clear communication and collaboration with the HMO are crucial for a successful integration.
