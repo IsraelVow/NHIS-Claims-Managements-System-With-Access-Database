@@ -29,7 +29,7 @@ The NHIS Claims Management System is a comprehensive solution designed to stream
 ## System Design
 The system features a user-friendly interface with multiple tabs, including Dashboard, Claims, Tariff, Documents, Analysis & Report, and Settings. Users can switch between public and private HMOs, create pending claims, search HMOs, and adjust tariff rates. The Dashboard displays key analytics and allows users to send claims via email.
 
-![Dashboard Screenshot](/images/dashboard.png)
+![Dashboard Screenshot](https://imgur.com/mHEidJA.png)
 
 ## Getting Started
 ### Prerequisites
@@ -61,7 +61,6 @@ To create a new account, follow these steps:
 2. A textbox will pop up, requesting the admin password. Enter "admin1234" (case sensitive).
 3. Once the admin password is accepted, it will open a registration form for creating a new account.
 
-![Create Account Page](https://i.imgur.com/tX2dCvB.png)
 ![Create Account Page](https://imgur.com/vJuwITE.png)
 
 

@@ -101,7 +101,7 @@ Certainly, let's update the "Dashboard" section in the user manual:
 **Overview**
 The dashboard provides a quick overview of essential information and functionalities within the NHIS Claims Management System. It offers insights into the system's performance and allows users to perform various actions. Below, we'll explore the different elements on the dashboard.
 
-![Dashboard Screenshot](/images/dashboard.png)
+![Dashboard Screenshot](https://imgur.com/mHEidJA.png)
 
 **Analytics Cards**
 - **Total Number of Billed Services**: This card displays the total number of services billed by the system.
