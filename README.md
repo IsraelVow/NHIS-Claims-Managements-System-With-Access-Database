@@ -50,10 +50,24 @@ To ensure the project works correctly, you need to adjust the database connectio
 3. Locate the `Workbook_Open()` event.
 4. Uncomment all the code in this event to allow the system to request user credentials when the workbook is opened.
 
+
 ### User Credentials
-- **Admin Login:**
-  - Username: `Admin`
-  - Password: `admin1234` (case sensitive)
+The login page provides access to the system for existing users and also allows you to register a new user. It consists of two pages within a multipage control:
+1. **Login Page**: Use this page to log in to the system with your existing credentials.
+2. **Create Account Page**: If you're a new user, you can create a new account from this page.
+
+To create a new account, follow these steps:
+1. Click the "Create Account" button located at the bottom left of the login page.
+2. A textbox will pop up, requesting the admin password. Enter "admin1234" (case sensitive).
+3. Once the admin password is accepted, it will open a registration form for creating a new account.
+
+![Login Page](https://i.imgur.com/tX2dCvB.png)
+
+For the initial login, you can use the following admin credentials:
+- **Username:** `Admin`
+- **Password:** `admin1234` (case sensitive)
+
+![Create Account Page](https://i.imgur.com/tX2dCvB.png)
 
 ### Making Adjustments
 Contributors may need to adjust various aspects of the project to suit their environment or requirements. To do so:
@@ -73,5 +87,3 @@ Please adhere to the project's coding guidelines and maintain a clean commit his
 ## License
 This project is licensed under the [MIT License](LICENSE).
 ```
-
-The adjustments mainly focus on making sections more visually distinct and adding section titles for clarity. This should provide a comprehensive and well-structured README.md for your project.
