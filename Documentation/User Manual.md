@@ -536,6 +536,6 @@ In the NHIS Claims Management System, you have the flexibility to add a new HMO 
 
 By following these steps, you can seamlessly onboard new HMOs into the NHIS Claims Management System, providing a user-friendly experience for NHIS officers and accurate claim processing for enrollees.
 
-For additional guidance and support, please refer to the [User Manual](documentation/User_Manual.pdf) or [contact our support team](#contact-support).
+For additional guidance and support, please refer to the [User Manual](https://github.com/IsraelVow/NHIS-Claims-Managements-System-With-Access-Database/blob/main/Documentation/User%20Manual.md) or [contact our support team](mailto:Israeljvow@gmail.com).
 
 **Note**: The onboarding process may vary depending on the specific requirements of the HMO and the compatibility of their claims form with the system. Clear communication and collaboration with the HMO are crucial for a successful integration.

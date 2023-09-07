@@ -86,7 +86,7 @@ By following these steps, you can seamlessly onboard new HMOs into the system, a
 
 If an HMO doesn't have a custom claims form or tariff, they will adopt the provider's (Almadina Clinic) standard claims form and tariff. This flexibility ensures that claims can still be processed without delays.
 
-For more detailed instructions and support, please refer to the [User Manual](documentation/User_Manual.pdf) or [contact our support team](#contact-support).
+For more detailed instructions and support, please refer to the [User Manual](https://github.com/IsraelVow/NHIS-Claims-Managements-System-With-Access-Database/blob/main/Documentation/User%20Manual.md) or [contact our support team](mailto:Israeljvow@gmail.com).
 
 **Note**: The process may vary slightly based on the specific requirements of the HMO and the compatibility of their claims form with the system. It's essential to maintain clear communication with the HMO throughout the onboarding process to ensure a smooth integration.
 
