@@ -54,6 +54,7 @@
 
 12. [Adding a New HMO with Custom Claims Form and Tariff](#adding-a-new-hmo-with-custom-claims-form-and-tariff)
 
+
 **1. Introduction**
 
 **About NHIS Claims Management System**
@@ -69,6 +70,7 @@ The NHIS Claims Management System comes with the following key features:
 - Data Export: Generate reports and export data to Excel or PDF formats.
 - Web Portal Integration: Seamless integration with HMO web portals streamlines claim submission.
 
+
 **2. Getting Started**
 
 **Installation**
@@ -81,6 +83,7 @@ To get started with the NHIS Claims Management System, follow these steps:
 Make sure you have the following prerequisites before using the system:
 - Microsoft Excel
 - Access Database Engine (if not already installed)
+
 
 **3. User Authentication**
 
@@ -96,7 +99,6 @@ To access the system, use the provided login credentials (Username: `Admin`, Pas
 **Forgot Password**
 If you forget your password, please contact the system administrator or support for assistance.
 
-Certainly, let's update the "Dashboard" section in the user manual:
 
 **4. Dashboard**
 
