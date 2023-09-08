@@ -163,7 +163,8 @@ The dashboard provides a quick overview of essential information and functionali
 
 ![Dashboard Screenshot](https://imgur.com/mHEidJA.png)
 
-**Analytics Cards**
+## Analytics Cards
+
 - **Total Number of Billed Services**: This card displays the total number of services billed by the system.
 - **Total Amount Claimed**: It shows the cumulative amount claimed through the system.
 - **Number of Pending Claims**: This card highlights the count of pending claims yet to be processed.
