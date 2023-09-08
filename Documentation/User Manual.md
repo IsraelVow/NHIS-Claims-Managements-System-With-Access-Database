@@ -54,10 +54,11 @@
 
 12. [Adding a New HMO with Custom Claims Form and Tariff](#adding-a-new-hmo-with-custom-claims-form-and-tariff)
 
-
 **1. Introduction**
 
-**About NHIS Claims Management System**
+## Introduction
+
+##About NHIS Claims Management System
 The NHIS Claims Management System is a robust software solution designed to streamline and automate the claims processing and management workflow for healthcare providers, specifically tailored for Almadina Clinic. This system offers a range of features to enhance efficiency and accuracy in managing claims, including dynamic claim forms, database integration, user permissions, real-time analytics, document management, data export, web portal integration, and more.
 
 **System Features**
