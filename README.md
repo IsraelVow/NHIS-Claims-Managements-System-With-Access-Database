@@ -2,8 +2,8 @@
 # NHIS Claims Management System with Excel and Access Database
 
 ## Table of Contents
-1. [About](documentation/User_Manual.md#about)
-2. [Features](documentation/User_Manual.md#features)
+1. [About](#about)
+2. [Features](#features)
 3. [System Design](#system-design)
 4. [Getting Started](#getting-started)
    - [Prerequisites](#prerequisites)
