@@ -3,15 +3,15 @@
 *Version: 1.0.0*
 
 **Table of Contents**
-1. [Introduction](#introduction)
-   - [About NHIS Claims Management System](#about-NHIS-Claims-Management-System)
-   - [System Features](#System-Features)
+1. [Introduction](documentation/User_Manual.md#introduction)
+   - [About NHIS Claims Management System](documentation/User_Manual.md#about-NHIS-Claims-Management-System)
+   - [System Features](documentation/User_Manual.md#System-Features)
 
-2. [Getting Started](#Getting-Started)
-   - [Installation](#installation)
-   - [Prerequisites](#prerequisites)
+2. [Getting Started](documentation/User_Manual.md#Getting-Started)
+   - [Installation](documentation/User_Manual.md#installation)
+   - [Prerequisites](documentation/User_Manual.md#prerequisites)
 
-3. [User Authentication](#User-Authentication]
+3. [User Authentication](#User-Authentication)
    - [Login](#Login)
    - [Registration](#Registration)
    - [Forgot Password](#Forgot-Password)
@@ -40,7 +40,7 @@
 
 9. [Settings](#Settings)
    - [User Permissions](#User-Permissions)
-   - [Editing User Credentials](#Editing-User-Credentials]
+   - [Editing User Credentials](#Editing-User-Credentials)
    - [Changing Password](#Changing-Password)
    - [Database Connection](#Database-Connection)
 
@@ -48,7 +48,7 @@
    - [Common Issues](#Common-Issues)
    - [Troubleshooting Tips](#Troubleshooting-Tips)
 
-11. [Contact Support](#Contact-Support]
+11. [Contact Support](#Contact-Support)
    - [Contact Information](#Contact-Information)
    - [Support Channels](#Support-Channels)
 
