@@ -478,13 +478,13 @@ Contributors are welcome to enhance the system and make improvements based on th
 
 This section provides answers to some common questions about the NHIS Claims Management System. If you have a question that's not covered here, please feel free to reach out for additional support.
 
-## Q1. What are the system requirements to run the NHIS Claims Management System?
+## Q1 What are the system requirements to run the NHIS Claims Management System?
 
 **A:** To use the NHIS Claims Management System, you need the following:
 - Microsoft Excel
 - Access Database Engine (if not already installed)
 
-## Q2. How do I adjust the database connection string to match my system directory?
+## Q2 How do I adjust the database connection string to match my system directory?
 
 **A:** To adjust the database connection string:
 1. Open the workbook in Excel.
@@ -493,14 +493,14 @@ This section provides answers to some common questions about the NHIS Claims Man
 4. Find the `Workbook_Open()` event.
 5. Uncomment all the code in this event to allow the system to request user credentials when the workbook is opened. Modify the database connection string in the code to match your system's directory path.
 
-## Q3. How can I register a new user within the NHIS Claims Management System?
+## Q3 How can I register a new user within the NHIS Claims Management System?
 
 **A:** To register a new user:
 1. Click the "Create Account" button located at the bottom left of the login page.
 2. Enter the admin password (default: admin1234) when prompted.
 3. A registration form will appear, allowing you to create a new user account.
 
-## Q4: How do I add a new HMO to the system with a custom claims form and tariff?
+## Q4 How do I add a new HMO to the system with a custom claims form and tariff?
 
 A1: To add a new HMO with a custom claims form and tariff, follow these steps:
 
@@ -512,19 +512,19 @@ A1: To add a new HMO with a custom claims form and tariff, follow these steps:
 
 4. Integration: We'll integrate the custom claims form and tariff into the system, ensuring that NHIS officers can easily process claims for enrollees under the new HMO.
 
-## Q5: What happens if an HMO doesn't have a custom claims form or tariff?
+## Q5 What happens if an HMO doesn't have a custom claims form or tariff?
 
 A2: If an HMO doesn't have a custom claims form or tariff, they will adopt the provider's (Almadina Clinic) custom claims form and use the provider's tariff. This means that claims for enrollees under such HMOs will be processed using the standard form and tariff provided by Almadina Clinic. The system is flexible enough to accommodate both custom and standard forms, ensuring claims can still be processed seamlessly.
 
-## Q6. Can I change my user credentials (email, phone number, password) within the system?
+## Q6 Can I change my user credentials (email, phone number, password) within the system?
 
 **A:** Yes, users have the option to change their user credentials directly within the system. This feature provides greater autonomy and data security.
 
-## Q7. What happens if I forget my password or encounter login issues?
+## Q7 What happens if I forget my password or encounter login issues?
 
 **A:** If you forget your password or experience login issues, please contact your system administrator for assistance. They can reset your password and help you regain access to the system.
 
-## Q8. How can I contribute to the NHIS Claims Management System project?
+## Q8 How can I contribute to the NHIS Claims Management System project?
 
 **A:** Contributions to this open-source project are welcome! Follow these steps to contribute:
 1. Fork the project on GitHub.
@@ -535,11 +535,11 @@ A2: If an HMO doesn't have a custom claims form or tariff, they will adopt the p
 
 Please adhere to the project's coding guidelines and maintain a clean commit history.
 
-## Q9. Can I use the NHIS Claims Management System for my healthcare facility or organization?
+## Q9 Can I use the NHIS Claims Management System for my healthcare facility or organization?
 
 **A:** Yes, you are welcome to use and customize the NHIS Claims Management System for your healthcare facility or organization. The system is designed to be adaptable to different environments and requirements.
 
-## Q10. Is technical support available for the NHIS Claims Management System?
+## Q10 Is technical support available for the NHIS Claims Management System?
 
 **A:** Yes, technical support is available for users of the NHIS Claims Management System. If you encounter any technical issues or have questions about the system, please reach out to your system administrator or the project's contributors for assistance.
 
