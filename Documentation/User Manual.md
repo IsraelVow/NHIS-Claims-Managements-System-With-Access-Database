@@ -3,56 +3,56 @@
 *Version: 1.0.0*
 
 **Table of Contents**
-1. Introduction
-   - About NHIS Claims Management System
-   - System Features
+1. [Introduction](#introduction)
+   - [About NHIS Claims Management System](#about NHIS Claims Management System)
+   - [System Features](#system Features)
 
-2. Getting Started
-   - Installation
-   - Prerequisites
+2. [Getting Started](#Getting Started)
+   - [Installation](#installation)
+   - [Prerequisites](#prerequisites)
 
-3. User Authentication
-   - Login
-   - Registration
-   - Forgot Password
+3. [User Authentication](#User Authentication]
+   - [Login](#Login)
+   - [Registration](#Registration)
+   - [Forgot Password](#Forgot Password)
 
-4. Dashboard
-   - Overview
-   - Sending Claims via Email
+4. [Dashboard](#Dashboard)
+   - [Overview](#Overview)
+   - [Sending Claims via Email](#Sending Claims via Email)
 
-5. Claims Management
-   - Public and Private HMOs
-   - Creating New Claims
-   - Pending Claims
-   - Web Portal Integration
+5. [Claims Management](#Claims Management)
+   - [Public and Private HMOs](#Public and Private HMOs)
+   - [Creating New Claims](#Creating New Claims)
+   - [Pending Claims](#Pending Claims)
+   - [Web Portal Integration](#Web Portal Integration)
 
-6. Tariff Adjustment
-   - Updating Tariff Rates
-   - Modifying HMO Details
+6. [Tariff Adjustment](#Tariff Adjustment)
+   - [Updating Tariff Rates](#Updating Tariff Rates)
+   - [Modifying HMO Details](#Modifying HMO Details)
 
-7. Document Management
-   - Viewing Documents
-   - Adding and Deleting Documents
+7. [Document Management](#Document Management)
+   - [Viewing Documents](#Viewing Documents)
+   - [Adding and Deleting Documents](#Adding and Deleting Documents)
 
-8. Analysis & Reporting
-   - Real-time Analytics
-   - Generating Reports
+8. [Analysis & Reporting](#Analysis & Reporting)
+   - [Real-time Analytics](#Real-time Analytics)
+   - [Generating Reports](#Generating Reports)
 
-9. Settings
-   - User Permissions
-   - Editing User Credentials
-   - Changing Password
-   - Database Connection
+9. [Settings](#Settings)
+   - [User Permissions](#User Permissions)
+   - [Editing User Credentials](#Editing User Credentials]
+   - [Changing Password](#Changing Password)
+   - [Database Connection](#Database Connection)
 
-10. Frequently Asked Questions (FAQs)
-   - Common Issues
-   - Troubleshooting Tips
+10. [FAQs (Frequently Asked Questions)](#FAQs (Frequently Asked Questions))
+   - [Common Issues](#Common Issues)
+   - [Troubleshooting Tips](#Troubleshooting Tips)
 
-11. Contact Support
-   - Contact Information
-   - Support Channels
+11. [Contact Support](#Contact Support]
+   - [Contact Information](#Contact Information)
+   - [Support Channels](#Support Channels)
 
-12. Adding a New HMO with Custom Claims Form and Tariff
+12. [Adding a New HMO with Custom Claims Form and Tariff](#Adding a New HMO with Custom Claims Form and Tariff)
 
 **1. Introduction**
 
