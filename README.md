@@ -11,6 +11,7 @@
    - [Database Connection](#database-connection)
    - [User Credentials](#user-credentials)
    - [Making Adjustments](#making-adjustments)
+   - [Adjusting the Database Connection](#adjusting-the-database-connection)
 5. [Contributing](#contributing)
 6. [License](#license)
 
@@ -91,9 +92,35 @@ For more detailed instructions and support, please refer to the [User Manual](ht
 **Note**: The process may vary slightly based on the specific requirements of the HMO and the compatibility of their claims form with the system. It's essential to maintain clear communication with the HMO throughout the onboarding process to ensure a smooth integration.
 
 ### Making Adjustments
-Contributors may need to adjust various aspects of the project to suit their environment or requirements. To do so:
 
-1. Modify the database connection string in the code to match your system's directory path.
+Contributors may need to adjust various aspects of the project to align with their specific environments or requirements. This section provides guidance on how to modify the database connection string and other settings.
+
+#### Adjusting the Database Connection
+
+The NHIS Claims Management System is designed to connect seamlessly with an Access database. To ensure the project works correctly on your system, you may need to adjust the database connection string. Follow these steps:
+
+1. **Open the "NCMS - No password" XLSM File**:
+   - Start by opening the "NCMS - No password" XLSM file provided in this repository. This file does not require login authentication.
+
+2. **Uncomment the Login Code**:
+   - Navigate to the Visual Basic for Applications (VBA) editor by pressing `Alt` + `F11`.
+   - In the editor, find the "ThisWorkbook" object in the Object Explorer.
+   - Locate the `Workbook_Open()` event.
+   - Uncomment all the code within this event. This step enables the system to request user credentials when the workbook is opened.
+
+3. **Replace the Existing Connection String**:
+   - Still in the VBA editor, use the "Find and Replace" functionality by pressing `Ctrl` + `H`.
+   - In the "Find what" field, enter the existing connection string, which is set to connect to the database on the login page initialization.
+   - In the "Replace with" field, provide your customized connection string that points to your Access database directory.
+   - Ensure you select "Current project" and click "Replace All" to update all instances of the existing connection string in the code.
+
+4. **Save Your Changes**:
+   - Save the changes made in the VBA editor and close it.
+
+5. **Open the "NCMS" XLSM File**:
+   - Now, open the "NCMS" XLSM file. With the modified connection string, the application will connect to your Access database correctly.
+
+By following these steps, you can customize the NHIS Claims Management System to work seamlessly with your database setup. This flexibility allows you to adapt the system to your specific environment while maintaining data security and accuracy.
 
 ## Contributing
 Contributions to this project are welcome! If you'd like to contribute, please follow these steps:
